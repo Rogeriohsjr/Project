@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7CA12572-EE37-41B7-B67B-1539115111B1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SFP</RootNamespace>
+    <AssemblyName>SFP</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\..\Utils\AjaxControlToolkit.Binary.NET4\Nova pasta\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Trirand.Web, Version=4.5.0.0, Culture=neutral, PublicKeyToken=e2819dc449af3295, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Dlls\Trirand.Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Acesso.aspx" />
+    <Content Include="App_Themes\Green\Geral.css" />
+    <Content Include="App_Themes\Green\Image\add.png" />
+    <Content Include="App_Themes\Green\Image\close.png" />
+    <Content Include="App_Themes\Green\Image\cpDownDouble.png" />
+    <Content Include="App_Themes\Green\Image\cpDownDoubleReverse.png" />
+    <Content Include="App_Themes\Green\Image\cpUpDouble.png" />
+    <Content Include="App_Themes\Green\Image\cpUpDoubleReverse.png" />
+    <Content Include="App_Themes\Green\Image\loading.gif" />
+    <Content Include="App_Themes\Green\Image\ok.png" />
+    <Content Include="App_Themes\Green\Image\remove.png" />
+    <Content Include="App_Themes\Green\Image\switch.png" />
+    <Content Include="App_Themes\Green\Menu\Images\item-pointer-mover.gif" />
+    <Content Include="App_Themes\Green\Menu\Images\item-pointer.gif" />
+    <Content Include="App_Themes\Green\Menu\Images\lava.gif" />
+    <Content Include="App_Themes\Green\Menu\Images\lava.png" />
+    <Content Include="App_Themes\Green\Menu\Images\main-bg.png" />
+    <Content Include="App_Themes\Green\Menu\Images\main-delimiter.png" />
+    <Content Include="App_Themes\Green\Menu\menu.css" />
+    <Content Include="Graficos.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="ListaCategoria.aspx" />
+    <Content Include="ListaContasAPagar.aspx" />
+    <Content Include="EditarContasAPagar.aspx" />
+    <Content Include="Logoff.aspx" />
+    <Content Include="MeuPerfil.aspx" />
+    <Content Include="Script\Global.js" />
+    <Content Include="Script\jquery.jqChart.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acesso.aspx.cs">
+      <DependentUpon>Acesso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Acesso.aspx.designer.cs">
+      <DependentUpon>Acesso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ENTIDADES\Acess.cs" />
+    <Compile Include="ENTIDADES\User.cs" />
+    <Compile Include="Graficos.aspx.cs">
+      <DependentUpon>Graficos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Graficos.aspx.designer.cs">
+      <DependentUpon>Graficos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout.Master.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout.Master.designer.cs">
+      <DependentUpon>Layout.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ListaCategoria.aspx.cs">
+      <DependentUpon>ListaCategoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaCategoria.aspx.designer.cs">
+      <DependentUpon>ListaCategoria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListaContasAPagar.aspx.cs">
+      <DependentUpon>ListaContasAPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListaContasAPagar.aspx.designer.cs">
+      <DependentUpon>ListaContasAPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ENTIDADES\Category.cs" />
+    <Compile Include="ENTIDADES\AccountPayable.cs" />
+    <Compile Include="Logoff.aspx.cs">
+      <DependentUpon>Logoff.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logoff.aspx.designer.cs">
+      <DependentUpon>Logoff.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MeuPerfil.aspx.cs">
+      <DependentUpon>MeuPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MeuPerfil.aspx.designer.cs">
+      <DependentUpon>MeuPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL\AcessDAO.cs" />
+    <Compile Include="MODEL\CategoryDAO.cs" />
+    <Compile Include="MODEL\AccountPayableDAO.cs" />
+    <Compile Include="EditarContasAPagar.aspx.cs">
+      <DependentUpon>EditarContasAPagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarContasAPagar.aspx.designer.cs">
+      <DependentUpon>EditarContasAPagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MODEL\ICRUD.cs" />
+    <Compile Include="MODEL\UserDAO.cs" />
+    <Compile Include="MODEL\GlobalMethod.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Layout.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>7070</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

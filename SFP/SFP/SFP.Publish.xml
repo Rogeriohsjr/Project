@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="ftp://rogeriohsjr.somee.com/" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="False" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Somee" publishMethod="FPSE" replaceMatchingFiles="False" userName="rogeriohsjr" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAp0ohHsNM50yZ1r+I9szMkwAAAAACAAAAAAAQZgAAAAEAACAAAAA9Coql+92ijvGEOmrrWNzEkKS+0EAoTqOP+sRg3LxUKwAAAAAOgAAAAAIAACAAAADfEwEc1HONsYbvYBc+b4RhgiGxCrd6rkCFU94aS7UNRCAAAAD/8v0i51S10BlZSyrlMpTCZIrjjOwe2DjhnzqjNYsAYkAAAACBRI7NxIGCZOXbr8bxRo4aAsOPZZQh3tg/yHo6U1AwW0gjpOPXsMpRZXW0v8lzU/inTAENcoCWR+a5y5bhLenM" SelectedForPublish="False" />
+  <publishProfile publishUrl="ftp://rogeriohsjr.somee.com/www.rogeriohsjr.somee.com/" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Somme/FPS" publishMethod="FTP" replaceMatchingFiles="True" userName="rogeriohsjr" savePWD="True" userPWD="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARDsRZXP7o0SvOOHPvqv0GgAAAAACAAAAAAADZgAAqAAAABAAAACkZleWMHbUCs0H80n5J1K6AAAAAASAAACgAAAAEAAAAACozaZkjZDS4WgvSGFA0wEYAAAAhbXm6fF8mD7wyYjZOi9wmpXZFcgSpPP6FAAAADRD7QUdw/rFdxWuT7PQ3hyw2x+n" SelectedForPublish="True">
+    <file relUrl="App_Themes/Green/Menu/Images/main-bg.png" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/remove.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="bin/SFP.dll" publishTime="03/03/2013 21:42:17" />
+    <file relUrl="Script/Global.js" publishTime="10/12/2012 08:58:36" />
+    <file relUrl="MeuPerfil.aspx" publishTime="12/26/2012 09:55:06" />
+    <file relUrl="bin/SFP.pdb" publishTime="03/03/2013 21:42:17" />
+    <file relUrl="Script/jquery.jqChart.min.js" publishTime="10/14/2012 12:00:40" />
+    <file relUrl="App_Themes/Green/Image/cpDownDoubleReverse.png" publishTime="10/11/2012 19:49:22" />
+    <file relUrl="EditarContasAPagar.aspx" publishTime="10/23/2012 21:15:06" />
+    <file relUrl="App_Themes/Green/Menu/Images/lava.gif" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/cpDownDouble.png" publishTime="10/11/2012 20:09:26" />
+    <file relUrl="App_Themes/Green/Image/cpUpDoubleReverse.png" publishTime="10/11/2012 19:50:04" />
+    <file relUrl="App_Themes/Green/Image/close.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="09/20/2012 03:06:36" />
+    <file relUrl="ListaContasAPagar.aspx" publishTime="03/03/2013 20:59:44" />
+    <file relUrl="App_Themes/Green/Image/switch.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="Layout.Master" publishTime="11/10/2012 13:46:16" />
+    <file relUrl="App_Themes/Green/Menu/Images/lava.png" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/ok.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="App_Themes/Green/Menu/menu.css" publishTime="10/14/2012 10:44:30" />
+    <file relUrl="Home.aspx" publishTime="12/26/2012 09:59:19" />
+    <file relUrl="App_Themes/Green/Image/add.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="Graficos.aspx" publishTime="01/02/2013 21:39:50" />
+    <file relUrl="App_Themes/Green/Menu/Images/main-delimiter.png" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/cpUpDouble.png" publishTime="10/11/2012 20:09:16" />
+    <file relUrl="App_Themes/Green/Menu/Images/item-pointer.gif" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="Web.config" publishTime="03/03/2013 21:42:32" />
+    <file relUrl="ListaCategoria.aspx" publishTime="03/03/2013 21:03:52" />
+    <file relUrl="Acesso.aspx" publishTime="12/15/2012 21:28:59" />
+    <file relUrl="App_Themes/Green/Image/loading.gif" publishTime="10/11/2012 19:48:02" />
+    <file relUrl="bin/Trirand.Web.dll" publishTime="03/03/2013 21:09:01" />
+    <file relUrl="App_Themes/Green/Menu/Images/item-pointer-mover.gif" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="Logoff.aspx" publishTime="11/07/2012 22:45:04" />
+    <file relUrl="App_Themes/Green/Geral.css" publishTime="12/01/2012 18:34:49" />
+  </publishProfile>
+  <publishProfile publishUrl="C:\inetpub\SFP" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="local SFP" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="False">
+    <file relUrl="App_Themes/Green/Menu/Images/main-bg.png" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/remove.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="bin/SFP.dll" publishTime="12/15/2012 21:30:25" />
+    <file relUrl="Script/Global.js" publishTime="10/12/2012 08:58:36" />
+    <file relUrl="MeuPerfil.aspx" publishTime="12/15/2012 21:27:36" />
+    <file relUrl="bin/SFP.pdb" publishTime="12/15/2012 21:30:25" />
+    <file relUrl="Script/jquery.jqChart.min.js" publishTime="10/14/2012 12:00:40" />
+    <file relUrl="App_Themes/Green/Image/cpDownDoubleReverse.png" publishTime="10/11/2012 19:49:22" />
+    <file relUrl="EditarContasAPagar.aspx" publishTime="10/23/2012 21:15:06" />
+    <file relUrl="App_Themes/Green/Menu/Images/lava.gif" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/cpDownDouble.png" publishTime="10/11/2012 20:09:26" />
+    <file relUrl="App_Themes/Green/Image/cpUpDoubleReverse.png" publishTime="10/11/2012 19:50:04" />
+    <file relUrl="App_Themes/Green/Image/close.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="bin/AjaxControlToolkit.dll" publishTime="09/20/2012 03:06:36" />
+    <file relUrl="ListaContasAPagar.aspx" publishTime="12/15/2012 19:31:39" />
+    <file relUrl="App_Themes/Green/Image/switch.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="Layout.Master" publishTime="11/10/2012 13:46:16" />
+    <file relUrl="App_Themes/Green/Menu/Images/lava.png" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/ok.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="App_Themes/Green/Menu/menu.css" publishTime="10/14/2012 10:44:30" />
+    <file relUrl="Home.aspx" publishTime="12/15/2012 19:46:21" />
+    <file relUrl="App_Themes/Green/Image/add.png" publishTime="10/06/2012 21:00:40" />
+    <file relUrl="Graficos.aspx" publishTime="11/04/2012 14:37:18" />
+    <file relUrl="App_Themes/Green/Menu/Images/main-delimiter.png" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="App_Themes/Green/Image/cpUpDouble.png" publishTime="10/11/2012 20:09:16" />
+    <file relUrl="App_Themes/Green/Menu/Images/item-pointer.gif" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="Web.config" publishTime="12/15/2012 21:30:38" />
+    <file relUrl="ListaCategoria.aspx" publishTime="10/23/2012 21:15:32" />
+    <file relUrl="Acesso.aspx" publishTime="12/15/2012 21:28:59" />
+    <file relUrl="App_Themes/Green/Image/loading.gif" publishTime="10/11/2012 19:48:02" />
+    <file relUrl="bin/Trirand.Web.dll" publishTime="11/15/2012 18:27:46" />
+    <file relUrl="App_Themes/Green/Menu/Images/item-pointer-mover.gif" publishTime="10/14/2012 10:44:10" />
+    <file relUrl="Logoff.aspx" publishTime="11/07/2012 22:45:04" />
+    <file relUrl="App_Themes/Green/Geral.css" publishTime="12/01/2012 18:34:49" />
+  </publishProfile>
+</publishData>
